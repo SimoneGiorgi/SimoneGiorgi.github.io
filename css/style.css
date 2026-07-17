@@ -1,0 +1,88 @@
+/* General style */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+
+header p {
+    font-size: 20px;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 20px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* Profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Sections */
+
+section {
+    margin: 50px 0;
+}
+
+
+h2 {
+    color: #222;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #f2f2f2;
+}
