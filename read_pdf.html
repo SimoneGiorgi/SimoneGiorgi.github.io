@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PDF Viewer | Simone Giorgi</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body class="pdf-page">
+
+
+<main class="pdf-container">
+
+
+<div class="pdf-title">
+
+<h1>
+PDF Viewer
+</h1>
+
+
+<a class="button"
+href="publications.html">
+← Back to Publications
+</a>
+
+
+<a class="button"
+href="index.html">
+🏠 Home
+</a>
+
+
+</div>
+
+
+
+<iframe
+
+id="pdf-viewer"
+
+class="pdf-viewer">
+
+</iframe>
+
+
+</main>
+
+
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+const pdfFile = params.get("file");
+
+
+if (pdfFile) {
+
+    document.getElementById("pdf-viewer").src = pdfFile;
+
+}
+
+</script>
+
+
+
+</body>
+
+</html>

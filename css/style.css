@@ -121,3 +121,63 @@ footer {
     opacity: 0.8;
 
 }
+
+/* =============================== */
+/* PDF Viewer Page                 */
+/* =============================== */
+
+
+.pdf-page {
+
+    margin: 0;
+    background-color: #ffffff;
+
+}
+
+
+
+.pdf-container {
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+.pdf-title {
+
+    padding: 20px;
+
+}
+
+
+
+.pdf-title h1 {
+
+    margin-top: 0;
+
+    margin-bottom: 15px;
+
+    font-size: 32px;
+
+}
+
+
+
+/* PDF occupies all remaining screen */
+
+.pdf-viewer {
+
+    display: block;
+
+    width: 100%;
+
+    height: calc(100vh - 150px);
+
+    border: none;
+
+}
