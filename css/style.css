@@ -60,11 +60,12 @@ nav a {
 
 
 .profile img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    width: 220px;
+    height: 280px;
     object-fit: cover;
+    border-radius: 8px;
 }
+
 
 
 /* Sections */
