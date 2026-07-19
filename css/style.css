@@ -90,14 +90,34 @@ footer {
 
 
 
+.section-title {
+    font-size: 2rem;
+    color: #1565C0;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    display: inline-block;   /* makes the h2 width equal to the text */
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 100%;             /* same width as the text */
+    height: 4px;
+    background: #1565C0;
+    margin-top: 8px;
+}
+
+
 .article {
 
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
     padding: 25px;
     margin: 30px 0;
     border-radius: 10px;
 
 }
+
+
 
 
 /* Common style for all buttons */
