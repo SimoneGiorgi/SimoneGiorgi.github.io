@@ -100,26 +100,43 @@ footer {
 }
 
 
+/* Common style for all buttons */
 .button {
     display: inline-block;
-    background: #222;
     color: white;
     padding: 10px 20px;
     margin-right: 15px;
     text-decoration: none;
     border-radius: 5px;
+    transition: opacity 0.2s ease;
 }
 
+/* Button colors */
+.button-download {
+    background: #1565C0;   /* Blue */
+}
+
+.button-read {
+    background: #424242;   /* Dark gray */
+}
+
+.button-medium {
+    background: #00AB6C;   /* Medium green */
+}
+
+/* Hover effect */
 .button:hover {
     opacity: 0.8;
 }
 
+/* Mobile layout */
 @media (max-width: 768px) {
     .button {
         display: block;
+        width: 220px;
+        text-align: center;
         margin-right: 0;
         margin-bottom: 12px;
-        width: fit-content;   /* keeps the button only as wide as its text */
     }
 }
 
