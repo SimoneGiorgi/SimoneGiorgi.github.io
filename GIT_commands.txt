@@ -1,0 +1,44 @@
+Check your current branch:
+git branch
+
+Make sure main is up-to-date:
+git pull origin main
+
+Create the development branch:
+git switch -c development
+
+
+Work on your website and Preview locally:
+Start a local server:
+python3 -m http.server 8000
+
+Open
+http://localhost:8000
+
+ 
+upload changes on development branch:
+git status
+git add .
+git commit -m "Improve publication page layout"
+git push -u origin development
+
+
+
+When everything is ready, switch back to main
+git switch main
+
+Make sure main is current:
+git pull origin main
+
+Merge the development branch:
+git merge development
+
+ 
+
+Step 16. Continue developing
+
+Switch back to the development branch:
+git switch development
+ 
+
+
